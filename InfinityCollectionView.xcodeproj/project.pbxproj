@@ -13,9 +13,15 @@
 		574D897C1F8380B200EE2BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D897A1F8380B200EE2BFC /* Main.storyboard */; };
 		574D897E1F8380B200EE2BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574D897D1F8380B200EE2BFC /* Assets.xcassets */; };
 		574D89811F8380B200EE2BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D897F1F8380B200EE2BFC /* LaunchScreen.storyboard */; };
+		574D898B1F83834D00EE2BFC /* TestCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D89891F83834D00EE2BFC /* TestCellCollectionViewCell.m */; };
+		574D898C1F83834D00EE2BFC /* TestCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574D898A1F83834D00EE2BFC /* TestCellCollectionViewCell.xib */; };
+		5773BA261F83910E00E9B214 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5773BA251F83910E00E9B214 /* CustomLayout.m */; };
+		5E364A014B1F074B9AD78A5F /* Pods_InfinityCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BC299BCBE579AEBB7AF3FE /* Pods_InfinityCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F254541B12D18962EBBB1FD /* Pods-InfinityCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityCollectionView/Pods-InfinityCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		397F5A23F0658FF418163D6D /* Pods-InfinityCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinityCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfinityCollectionView/Pods-InfinityCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		574D896E1F8380B200EE2BFC /* InfinityCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574D89721F8380B200EE2BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		574D89741F8380B200EE2BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		574D897D1F8380B200EE2BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574D89801F8380B200EE2BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574D89821F8380B200EE2BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574D89881F83834D00EE2BFC /* TestCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCellCollectionViewCell.h; sourceTree = "<group>"; };
+		574D89891F83834D00EE2BFC /* TestCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCellCollectionViewCell.m; sourceTree = "<group>"; };
+		574D898A1F83834D00EE2BFC /* TestCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		5773BA241F83910E00E9B214 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		5773BA251F83910E00E9B214 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		E4BC299BCBE579AEBB7AF3FE /* Pods_InfinityCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinityCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E364A014B1F074B9AD78A5F /* Pods_InfinityCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FAF3FB523682CBE197757C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F254541B12D18962EBBB1FD /* Pods-InfinityCollectionView.debug.xcconfig */,
+				397F5A23F0658FF418163D6D /* Pods-InfinityCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		574D89651F8380B100EE2BFC = {
 			isa = PBXGroup;
 			children = (
 				574D89701F8380B200EE2BFC /* InfinityCollectionView */,
 				574D896F1F8380B200EE2BFC /* Products */,
+				2FAF3FB523682CBE197757C2 /* Pods */,
+				7E8B7618D277F816F84BE46C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +91,11 @@
 				574D897F1F8380B200EE2BFC /* LaunchScreen.storyboard */,
 				574D89821F8380B200EE2BFC /* Info.plist */,
 				574D89711F8380B200EE2BFC /* Supporting Files */,
+				574D89881F83834D00EE2BFC /* TestCellCollectionViewCell.h */,
+				574D89891F83834D00EE2BFC /* TestCellCollectionViewCell.m */,
+				574D898A1F83834D00EE2BFC /* TestCellCollectionViewCell.xib */,
+				5773BA241F83910E00E9B214 /* CustomLayout.h */,
+				5773BA251F83910E00E9B214 /* CustomLayout.m */,
 			);
 			path = InfinityCollectionView;
 			sourceTree = "<group>";
@@ -79,6 +108,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7E8B7618D277F816F84BE46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC299BCBE579AEBB7AF3FE /* Pods_InfinityCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 574D89851F8380B200EE2BFC /* Build configuration list for PBXNativeTarget "InfinityCollectionView" */;
 			buildPhases = (
+				E3C73211CF4EC3156AB9D621 /* [CP] Check Pods Manifest.lock */,
 				574D896A1F8380B200EE2BFC /* Sources */,
 				574D896B1F8380B200EE2BFC /* Frameworks */,
 				574D896C1F8380B200EE2BFC /* Resources */,
+				DDB70259F3233B154073E19E /* [CP] Embed Pods Frameworks */,
+				CA01211256B65F1DE5ECEDDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +150,7 @@
 				TargetAttributes = {
 					574D896D1F8380B200EE2BFC = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JGA5547P3N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,11 +180,68 @@
 			files = (
 				574D89811F8380B200EE2BFC /* LaunchScreen.storyboard in Resources */,
 				574D897E1F8380B200EE2BFC /* Assets.xcassets in Resources */,
+				574D898C1F83834D00EE2BFC /* TestCellCollectionViewCell.xib in Resources */,
 				574D897C1F8380B200EE2BFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA01211256B65F1DE5ECEDDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityCollectionView/Pods-InfinityCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB70259F3233B154073E19E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InfinityCollectionView/Pods-InfinityCollectionView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/InfiniteCollectionView/InfiniteCollectionView.framework",
+				"${BUILT_PRODUCTS_DIR}/KTCenterFlowLayout/KTCenterFlowLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InfiniteCollectionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTCenterFlowLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfinityCollectionView/Pods-InfinityCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C73211CF4EC3156AB9D621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinityCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		574D896A1F8380B200EE2BFC /* Sources */ = {
@@ -151,7 +249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				574D89791F8380B200EE2BFC /* ViewController.m in Sources */,
+				5773BA261F83910E00E9B214 /* CustomLayout.m in Sources */,
 				574D89761F8380B200EE2BFC /* AppDelegate.m in Sources */,
+				574D898B1F83834D00EE2BFC /* TestCellCollectionViewCell.m in Sources */,
 				574D89731F8380B200EE2BFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +372,10 @@
 		};
 		574D89861F8380B200EE2BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F254541B12D18962EBBB1FD /* Pods-InfinityCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JGA5547P3N;
 				INFOPLIST_FILE = InfinityCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasdasd.InfinityCollectionView;
@@ -283,8 +385,10 @@
 		};
 		574D89871F8380B200EE2BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397F5A23F0658FF418163D6D /* Pods-InfinityCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JGA5547P3N;
 				INFOPLIST_FILE = InfinityCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdasdasd.InfinityCollectionView;
@@ -311,6 +415,7 @@
 				574D89871F8380B200EE2BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

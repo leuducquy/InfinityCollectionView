@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@import InfiniteCollectionView;
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *heightCLv;
+
+@property (weak, nonatomic) IBOutlet InfiniteCollectionView *clV;
+
 
 
 @end
